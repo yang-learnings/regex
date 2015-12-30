@@ -14,9 +14,10 @@ example
 
 matches lolololol
 
-####Character Set
+####Character Set and Ranges
 ---
-Use the [x]
+Use the square braces [x] for character set
+Use the - for a range, e.g 1-5 or a-z
 
 example
 ```
