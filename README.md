@@ -7,7 +7,9 @@ A compiled list of regex for learning
 Use the + operator
 example
 
-```/l(ol)+/```
+```
+/l(ol)+/
+```
 
 matches lolololol
 
