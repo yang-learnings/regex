@@ -48,4 +48,15 @@ example
 
 matches space, tab, newlines
 
+####Word Metacharacter
+---
+\w is the same as [a-zA-Z0-9];
+
+example
+```
+/\w/
+```
+
+matches 'a', 'F', '3'
+
 
