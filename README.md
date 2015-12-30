@@ -37,4 +37,15 @@ example
 
 matches 'a', 'B', 'C'
 
+####White space
+---
+Use \s to represent white space
+
+example
+```
+/\s/
+```
+
+matches space, tab, newlines
+
 
