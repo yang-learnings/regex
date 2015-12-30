@@ -24,4 +24,17 @@ example
 /[a-z]/
 ```
 represents a small case letter inside the alphabet
+matches 'a', 'b'
+
+####Case Insensitive
+---
+Use the 'i' modifier to make the regex case insensitive
+
+example
+```
+/[a-z]/i
+```
+
+matches 'a', 'B', 'C'
+
 
