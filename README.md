@@ -91,3 +91,24 @@ example
 ```
 matches 'testing', 'tested'
 
+##Anchors
+###Start with
+---
+use the ^ to signify starting with
+
+example
+```
+/^test/
+```
+matches 'test', 'tester', 'testing'
+
+###End At
+---
+Use the $ to signify end at
+
+example
+```
+/hook$/
+```
+
+matches 'prehook', 'posthook'
