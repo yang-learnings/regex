@@ -71,4 +71,14 @@ example
 
 matches any one character
 
+###Optional, matches zero or one times
+---
+Use the question mark ? to represent something that is matched zero or one times
+
+example
+```
+/ba?/
+```
+matches 'ba', 'b'
+
 
