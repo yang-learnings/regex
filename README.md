@@ -81,4 +81,13 @@ example
 ```
 matches 'ba', 'b'
 
+###Groups
+---
+Use groups to group stuff together ();
+
+example
+```
+/test(ing|ed)/
+```
+matches 'testing', 'tested'
 
