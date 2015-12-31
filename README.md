@@ -59,4 +59,12 @@ example
 
 matches 'a', 'F', '3'
 
+###wildcard
+---
+Use the dot . to represent anything except for a new line
+
+example
+
+/./ matches any one character
+
 
