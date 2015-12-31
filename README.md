@@ -65,6 +65,10 @@ Use the dot . to represent anything except for a new line
 
 example
 
-/./ matches any one character
+```
+/./
+```
+
+matches any one character
 
 
