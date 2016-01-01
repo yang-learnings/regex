@@ -132,3 +132,14 @@ example
 ```
 
 matches 'b', 'c'
+
+##Number
+Use the \d for numbers, same as [0-9]
+
+example
+```
+/\d/
+```
+
+matches '1', '5'
+
