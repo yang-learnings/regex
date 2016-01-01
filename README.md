@@ -112,3 +112,23 @@ example
 ```
 
 matches 'prehook', 'posthook'
+
+##Word Boundaries
+Use the \b to define word boundaries
+
+example
+```
+/\bwhat\b/
+```
+
+matches 'dont know whats wrong'
+
+##Not
+Use the caret ^ for not
+
+example
+```
+/^a/
+```
+
+matches 'b', 'c'
