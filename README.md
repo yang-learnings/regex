@@ -124,11 +124,11 @@ example
 matches 'dont know whats wrong'
 
 ##Not
-Use the caret ^ for not
+Use the caret ^ for not, must be in square brackets
 
 example
 ```
-/^a/
+/[^a]/
 ```
 
 matches 'b', 'c'
@@ -143,3 +143,12 @@ example
 
 matches '1', '5'
 
+##capitalized Metacharacter
+Stands for the opposite \D is anything that is not a number
+
+example
+```
+/\D/
+```
+
+matches 'a', 'c', ','
