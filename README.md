@@ -156,6 +156,8 @@ matches 'a', 'c', ','
 ##Intervals
 use {min,max} to match a interval number of items
 
+```
 /a{2,4}/
+```
 
 matches 'aa', 'aaa', 'aaaa'
