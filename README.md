@@ -161,3 +161,14 @@ use {min,max} to match a interval number of items
 ```
 
 matches 'aa', 'aaa', 'aaaa'
+
+##global
+use the modifier /g to match multiple times
+
+example
+/test/g
+
+matches 'the test was testing us'
+
+##multi line
+use the modifier /m to match multiple lines, meaning a \n is the separator
