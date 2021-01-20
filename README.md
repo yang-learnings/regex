@@ -2,7 +2,7 @@
 A compiled list of regex for learning
 
 
-####One or more times
+#### One or more times
 ---
 Use the + operator
 
@@ -14,7 +14,7 @@ example
 
 matches lolololol
 
-####Character Set and Ranges
+#### Character Set and Ranges
 ---
 Use the square braces [x] for character set
 Use the - for a range, e.g 1-5 or a-z
@@ -26,7 +26,7 @@ example
 represents a small case letter inside the alphabet
 matches 'a', 'b'
 
-####Case Insensitive
+#### Case Insensitive
 ---
 Use the 'i' modifier to make the regex case insensitive
 
@@ -37,7 +37,7 @@ example
 
 matches 'a', 'B', 'C'
 
-####White space
+#### White space
 ---
 Use \s to represent white space
 
@@ -48,7 +48,7 @@ example
 
 matches space, tab, newlines
 
-####Word Metacharacter
+#### Word Metacharacter
 ---
 \w is the same as [a-zA-Z0-9];
 
@@ -59,7 +59,7 @@ example
 
 matches 'a', 'F', '3'
 
-###wildcard
+### wildcard
 ---
 Use the dot . to represent anything except for a new line
 
@@ -71,7 +71,7 @@ example
 
 matches any one character
 
-###Optional, matches zero or one times
+### Optional, matches zero or one times
 ---
 Use the question mark ? to represent something that is matched zero or one times
 
@@ -81,7 +81,7 @@ example
 ```
 matches 'ba', 'b'
 
-###Groups
+### Groups
 ---
 Use groups to group stuff together ();
 
@@ -91,8 +91,8 @@ example
 ```
 matches 'testing', 'tested'
 
-##Anchors
-###Start with
+## Anchors
+### Start with
 ---
 use the ^ to signify starting with
 
@@ -102,7 +102,7 @@ example
 ```
 matches 'test', 'tester', 'testing'
 
-###End At
+### End At
 ---
 Use the $ to signify end at
 
@@ -113,7 +113,7 @@ example
 
 matches 'prehook', 'posthook'
 
-##Word Boundaries
+## Word Boundaries
 Use the \b to define word boundaries
 
 example
@@ -123,7 +123,7 @@ example
 
 matches 'dont know whats wrong'
 
-##Not
+## Not
 Use the caret ^ for not, must be in square brackets
 
 example
@@ -133,7 +133,7 @@ example
 
 matches 'b', 'c'
 
-##Number
+## Number
 Use the \d for numbers, same as [0-9]
 
 example
@@ -143,7 +143,7 @@ example
 
 matches '1', '5'
 
-##capitalized Metacharacter
+## capitalized Metacharacter
 Stands for the opposite \D is anything that is not a number
 
 example
@@ -153,7 +153,7 @@ example
 
 matches 'a', 'c', ','
 
-##Intervals
+## Intervals
 use {min,max} to match a interval number of items
 
 ```
@@ -162,7 +162,7 @@ use {min,max} to match a interval number of items
 
 matches 'aa', 'aaa', 'aaaa'
 
-##global
+## global
 use the modifier /g to match multiple times
 
 example
@@ -170,5 +170,5 @@ example
 
 matches 'the test was testing us'
 
-##multi line
+## multi line
 use the modifier /m to match multiple lines, meaning a \n is the separator
